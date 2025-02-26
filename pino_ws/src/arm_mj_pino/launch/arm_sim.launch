@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" >
+        <arg name="port" value="9091"/>
+    </include>
+    <node name="arm_sim" type="arm_sim.py" pkg="arm_mj_pino" output="screen"/>
+    <env name="PYTHONPATH" value="/home/robot/anaconda3/envs/ros_pino/lib/python3.8/site-packages:$PYTHONPATH"/>
+</launch>
