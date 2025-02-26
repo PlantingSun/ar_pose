@@ -7,3 +7,7 @@ for Xiaomi14
 # pino_ws
 use rosbridge_server as a Websocket client
 use pinocchio and mujoco_base to simulate a 6 DoF robot
+
+
+https://github.com/user-attachments/assets/6fc0e16b-2a7c-4ac6-a4b3-0ce735134981
+
